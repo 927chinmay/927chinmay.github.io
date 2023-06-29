@@ -1,0 +1,114 @@
+
+* {
+    box-sizing: border-box;
+}
+
+
+h1{
+   text-align: center; 
+   color: black;
+   margin-bottom: 15px;
+   font-size: 50px;
+}
+
+section{
+    position: relative;
+    padding: 15px;
+    width: 80%;
+}
+
+p{
+    position: relative;
+    clear: right;
+}
+
+div{
+    position: relative;
+    background-color: gray;
+    border: 3px solid black;
+    margin: auto;
+    width:100%;
+}
+
+.title1{
+    float: right;
+    width: 120px;
+    padding: 6px;
+    margin: auto;
+    border: 2px solid black;
+    text-align: center;
+    background-color: pink;
+    font-size: 125%;
+   font-weight: bold; 
+}
+
+.title2{
+    float: right;
+    width: 120px;
+    padding: 6px;
+    margin: auto;
+    border: 2px solid black;
+    text-align: center;
+    
+    background-color: red;
+    font-weight: bold;
+    font-size: 125%;
+}
+
+.title3{
+    float: right;
+    width: 120px;
+    padding: 6px;
+    margin: auto;
+    border: 2px solid black;
+    text-align: center;
+    
+    background-color: lightgreen;
+    font-weight: bold;
+    font-size: 125%;
+}
+
+.text{
+padding: 5px;
+font-family: Helvetica;
+height: 150px;
+background-color: gray;
+margin: 5px;
+overflow: auto;
+}
+
+
+/* desktop */
+
+@media (min-width: 992px) {
+    .col-lg-4{
+        float: left;
+        width: 33.3%;
+    }
+}
+
+/* tablet */
+
+@media (min-width:768px) and (max-width: 991px){
+    .col-md-6{
+        float: left;
+        width: 50%;
+        margin: auto;
+    }
+
+    .col-md-12{
+        float: left;
+        width: 100%;
+        margin: auto;
+    }
+}
+
+
+/* mobile  */
+
+@media(max-width: 767px){
+    .col-sm-12{
+        float: left;
+        width: 100%;
+    }
+}
